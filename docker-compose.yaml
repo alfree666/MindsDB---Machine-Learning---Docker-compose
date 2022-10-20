@@ -6,8 +6,8 @@ services:
         image: mindsdb/mindsdb
         container_name: mindsdb
         ports:
-            - '47334:47334'
-            - '47335:47335'
+            - '8200:47334'
+            - '8300:47335'
         restart: unless-stoppped
 
         
